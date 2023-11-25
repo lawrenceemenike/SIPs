@@ -24,7 +24,7 @@ def preprocess_text(text):
     return text[start:end]
 
 # URL of the book
-book_url = 'https://www.gutenberg.org/cache/epub/72210/pg72210.txt'
+book_url = 'data/data.txt'
 
 # Download and preprocess the text
 raw_text = download_text(book_url)
